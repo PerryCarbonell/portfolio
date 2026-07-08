@@ -9,7 +9,7 @@
   --text:  #1a1a1a;
   --muted: #888888;
   --font:  'Courier Prime', 'Courier New', Courier, monospace;
-  --width: 760px;
+  --width: 860px;
   --pad:   clamp(1.25rem, 4vw, 2.5rem);
   --gap:   1.5rem;
 }
@@ -110,7 +110,7 @@ header {
   padding: 0 var(--pad) 6rem;
   display: flex;
   flex-direction: column;
-  gap: var(--gap);
+  gap: 3rem;
 }
 
 /* photo enters on scroll */
@@ -129,7 +129,8 @@ header {
 }
 
 /* row of side-by-side photos — columns adjust to however many photos are in the row */
-.photo-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: 6px; }
+.photo-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: 6px; align-items: start; }
+.photo-row img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
 /* ─── Overlay (shared: contact + name menu) ─── */
 .overlay {

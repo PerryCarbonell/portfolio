@@ -15,6 +15,12 @@ import Lightbox from '../components/Lightbox'
  */
 const PHOTOS = [
   { src: '/images/mardi kisses.JPG', alt: 'Mardi Kisses' },
+  { row: [
+    { src: '/images/YB morning.jpg', alt: 'YB morning' },
+    { src: '/images/Bondi morning.JPG', alt: 'Bondi morning' },
+  ]},
+  { src: '/images/mardi lift.JPG', alt: 'mardi lift' },
+    { src: '/images/LS port.PNG', alt: 'LS port' },
 ]
 
 // Scroll-fade hook using IntersectionObserver
