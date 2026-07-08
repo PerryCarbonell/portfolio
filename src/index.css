@@ -136,7 +136,7 @@ header {
 .overlay {
   position: fixed;
   inset: 0;
-  background: rgba(242, 242, 240, 0.97);
+  background: #f2f2f0;
   z-index: 1000;
   display: flex;
   align-items: flex-start;

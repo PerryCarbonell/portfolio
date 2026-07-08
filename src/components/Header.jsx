@@ -52,11 +52,11 @@ export default function Header() {
                 P. Carbonell
               </button>
               <button className="menu-nav-btn" onClick={() => {
-                dismiss()
+                setMenuOpen(false)
                 setAboutOpen(true)
               }}>About</button>
               <button className="menu-nav-btn" onClick={() => {
-                dismiss()
+                setMenuOpen(false)
                 setJournalOpen(true)
               }}>Journal</button>
             </nav>
