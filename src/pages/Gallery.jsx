@@ -21,6 +21,11 @@ const PHOTOS = [
   ]},
   { src: '/images/mardi lift.JPG', alt: 'mardi lift' },
     { src: '/images/LS port.PNG', alt: 'LS port' },
+  { src: '/images/Beach run.JPG', alt: 'Beach run' },
+  { row: [
+    { src: '/images/01.JPG', alt: '01' },
+    { src: '/images/02.JPG', alt: '02' },
+  ]},
 ]
 
 // Scroll-fade hook using IntersectionObserver
