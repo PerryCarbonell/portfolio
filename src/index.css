@@ -10,7 +10,7 @@
   --muted: #888888;
   --font:  'Courier Prime', 'Courier New', Courier, monospace;
   --width: 860px;
-  --pad:   clamp(1.25rem, 4vw, 2.5rem);
+  --pad:   clamp(3rem, 11vw, 6rem);
   --gap:   1.5rem;
 }
 
